@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailored Wool Coat — LUXE</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header__top">
+      <span>Free shipping on orders over $99 — Use code <strong>LUXE25</strong></span>
+    </div>
+    <nav class="header__nav container">
+      <a href="../index.html" class="logo">
+        <span class="logo__mark">L</span>
+        <span class="logo__text">LUXE</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="../index.html" class="nav__link">Home</a></li>
+        <li class="nav__dropdown">
+          <a href="products.html" class="nav__link active">Shop <span class="arrow">▾</span></a>
+          <ul class="dropdown__menu">
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="nav__link">Collections</a></li>
+        <li><a href="#" class="nav__link">About</a></li>
+        <li><a href="#" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="search__bar">
+        <input type="text" class="search__input" placeholder="Search products…" id="searchInput" />
+        <button class="search__btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+      </div>
+      <div class="header__icons">
+        <button class="icon__btn" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </button>
+        <button class="icon__btn cart__icon" aria-label="Cart" id="cartBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="cart__count" id="cartCount">3</span>
+        </button>
+        <button class="icon__btn" aria-label="Account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BREADCRUMB -->
+    <section class="listing__head container" style="padding-bottom:0;">
+      <p class="breadcrumb"><a href="../index.html">Home</a> / <a href="products.html">Shop</a> / <span>Tailored Wool Coat</span></p>
+    </section>
+
+    <!-- PRODUCT DETAILS -->
+    <section class="pdp container">
+      <div class="pdp__layout">
+
+        <!-- GALLERY -->
+        <div class="pdp__gallery">
+          <img src="../assets/images/product-1.jpg" alt="Tailored Wool Coat in camel — front view" class="img-placeholder pdp__main-image" id="mainImage" />
+          <div class="pdp__thumbs">
+            <button class="pdp__thumb pdp__thumb--active" data-real="../assets/images/product-1.jpg" data-label="Front view">
+              <img src="../assets/images/product-1.jpg" alt="Front view thumbnail" class="img-placeholder" />
+            </button>
+            <button class="pdp__thumb" data-label="Side view">
+              <div class="img-placeholder"><span>2<br><small>add photo</small></span></div>
+            </button>
+            <button class="pdp__thumb" data-label="Back view">
+              <div class="img-placeholder"><span>3<br><small>add photo</small></span></div>
+            </button>
+            <button class="pdp__thumb" data-label="Fabric detail">
+              <div class="img-placeholder"><span>4<br><small>add photo</small></span></div>
+            </button>
+          </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="pdp__info">
+          <span class="eyebrow">Outerwear</span>
+          <h1 class="pdp__title">Tailored Wool Coat</h1>
+          <div class="product__rating" style="margin-bottom:var(--space-4);">
+            <span class="product__stars">★★★★★</span>
+            <span class="product__reviews">5.0 · 30 reviews</span>
+          </div>
+          <p class="pdp__price">$249.00</p>
+          <p class="pdp__desc">Cut from a heavyweight wool blend, this coat is built for cold-weather days that demand both warmth and polish. A clean silhouette, fully lined interior, and horn-style buttons make it a piece you'll reach for every season.</p>
+
+          <ul class="pdp__features">
+            <li>80% wool, 20% nylon blend</li>
+            <li>Fully lined interior</li>
+            <li>Notched lapel, single-breasted</li>
+            <li>Dry clean only</li>
+          </ul>
+
+          <!-- SIZE SELECT -->
+          <div class="pdp__option">
+            <label class="pdp__option-label">Size <span id="selectedSize">— Select a size</span></label>
+            <div class="size__group" id="sizeGroup">
+              <button class="size__chip" data-size="S">S</button>
+              <button class="size__chip" data-size="M">M</button>
+              <button class="size__chip" data-size="L">L</button>
+              <button class="size__chip" data-size="XL">XL</button>
+              <button class="size__chip" data-size="XXL">XXL</button>
+            </div>
+          </div>
+
+          <!-- QUANTITY -->
+          <div class="pdp__option">
+            <label class="pdp__option-label">Quantity</label>
+            <div class="qty__stepper">
+              <button class="qty__btn" id="qtyMinus" aria-label="Decrease quantity">−</button>
+              <span class="qty__value" id="qtyValue">1</span>
+              <button class="qty__btn" id="qtyPlus" aria-label="Increase quantity">+</button>
+            </div>
+          </div>
+
+          <!-- ACTIONS -->
+          <div class="pdp__actions">
+            <button class="btn btn--primary btn--lg" id="addToCartBtn">Add to Cart</button>
+            <button class="pdp__wishlist-btn" aria-label="Add to wishlist">♡</button>
+          </div>
+          <p class="pdp__notice" id="pdpNotice" aria-live="polite"></p>
+
+          <div class="pdp__meta">
+            <p><strong>SKU:</strong> LUXE-WC-001</p>
+            <p><strong>Category:</strong> Outerwear, New Season</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews container">
+      <div class="section__head" style="text-align:left;">
+        <span class="eyebrow">Customer Reviews</span>
+        <h2 class="section__title">What People Are Saying</h2>
+      </div>
+      <div class="reviews__grid">
+        <article class="review__card">
+          <div class="product__rating" style="margin-bottom:var(--space-3);">
+            <span class="product__stars">★★★★★</span>
+          </div>
+          <p class="review__text">"Runs slightly large but the quality is outstanding — the wool feels genuinely heavyweight and the lining is soft. Sized down and it's perfect now."</p>
+          <p class="review__author">Amelia R. <span>· Verified Buyer</span></p>
+        </article>
+        <article class="review__card">
+          <div class="product__rating" style="margin-bottom:var(--space-3);">
+            <span class="product__stars">★★★★<span class="star--empty">★</span></span>
+          </div>
+          <p class="review__text">"Beautiful coat, exactly as pictured. Shipping took a bit longer than expected but worth the wait. Wearing it almost daily this season."</p>
+          <p class="review__author">Daniyal K. <span>· Verified Buyer</span></p>
+        </article>
+        <article class="review__card">
+          <div class="product__rating" style="margin-bottom:var(--space-3);">
+            <span class="product__stars">★★★★★</span>
+          </div>
+          <p class="review__text">"This is my third LUXE purchase and they keep getting it right. The buttons feel substantial, not cheap plastic like some other brands at this price."</p>
+          <p class="review__author">Sofia M. <span>· Verified Buyer</span></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- RELATED PRODUCTS -->
+    <section class="trending container">
+      <div class="section__head">
+        <span class="eyebrow">You May Also Like</span>
+        <h2 class="section__title">Related Products</h2>
+      </div>
+      <div class="product__grid product__grid--preview">
+        <article class="product__card">
+          <img src="../assets/images/product-6.jpg" alt="Structured Blazer in grey plaid" class="img-placeholder" />
+          <button class="product__wishlist" aria-label="Add to wishlist">♡</button>
+          <div class="product__info">
+            <h3 class="product__name">Structured Blazer</h3>
+            <div class="product__rating">
+              <span class="product__stars">★★★★<span class="star--empty">★</span></span>
+              <span class="product__reviews">4.5 (52)</span>
+            </div>
+            <p class="product__price">$210.00</p>
+            <button class="btn btn--primary btn--full">Buy Now</button>
+          </div>
+        </article>
+        <article class="product__card">
+          <img src="../assets/images/product-11.jpg" alt="Classic Denim Jacket in light wash" class="img-placeholder" />
+          <button class="product__wishlist" aria-label="Add to wishlist">♡</button>
+          <div class="product__info">
+            <h3 class="product__name">Classic Denim Jacket</h3>
+            <div class="product__rating">
+              <span class="product__stars">★★★★<span class="star--empty">★</span></span>
+              <span class="product__reviews">4.5 (95)</span>
+            </div>
+            <p class="product__price">$145.00</p>
+            <button class="btn btn--primary btn--full">Buy Now</button>
+          </div>
+        </article>
+        <article class="product__card">
+          <img src="../assets/images/product-10.jpg" alt="Merino Wool Scarf in camel and charcoal" class="img-placeholder" />
+          <button class="product__wishlist" aria-label="Add to wishlist">♡</button>
+          <div class="product__info">
+            <h3 class="product__name">Merino Wool Scarf</h3>
+            <div class="product__rating">
+              <span class="product__stars">★★★★<span class="star--empty">★</span></span>
+              <span class="product__reviews">4.5 (48)</span>
+            </div>
+            <p class="product__price">$65.00</p>
+            <button class="btn btn--primary btn--full">Buy Now</button>
+          </div>
+        </article>
+        <article class="product__card">
+          <img src="../assets/images/product-5.jpg" alt="Cashmere Knit Sweater in burgundy" class="img-placeholder" />
+          <button class="product__wishlist" aria-label="Add to wishlist">♡</button>
+          <div class="product__info">
+            <h3 class="product__name">Cashmere Knit Sweater</h3>
+            <div class="product__rating">
+              <span class="product__stars">★★★★★</span>
+              <span class="product__reviews">5.0 (21)</span>
+            </div>
+            <p class="product__price">$175.00</p>
+            <button class="btn btn--primary btn--full">Buy Now</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top container">
+      <div class="footer__col footer__brand">
+        <a href="../index.html" class="logo logo--light">
+          <span class="logo__mark">L</span>
+          <span class="logo__text">LUXE</span>
+        </a>
+        <p class="footer__tagline">Curated fashion for the modern individual.</p>
+        <div class="footer__socials">
+          <a href="#" class="social__link" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" class="social__link" aria-label="Twitter">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Shop</h4>
+        <ul class="footer__links">
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Sale</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__heading">Help</h4>
+        <ul class="footer__links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__col footer__newsletter">
+        <h4 class="footer__heading">Stay in the Loop</h4>
+        <p>Get early access to new arrivals and exclusive deals.</p>
+        <div class="newsletter__form">
+          <input type="email" class="newsletter__input" placeholder="your@email.com" />
+          <button class="newsletter__btn">Subscribe</button>
+        </div>
+        <p class="newsletter__note">No spam, ever.</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2026 LUXE. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+        <div class="payment__icons">
+          <span class="pay__badge">VISA</span>
+          <span class="pay__badge">MC</span>
+          <span class="pay__badge">PayPal</span>
+          <span class="pay__badge">AMEX</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
